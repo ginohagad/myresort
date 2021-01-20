@@ -1,9 +1,14 @@
+import Navbar from './Navbar';
 import Welcome from './Welcome';
+
 
 const Main = () => {
   return (
     <div className="main">
-      <Welcome />
+      <div className="tint">
+        <Navbar />
+        <Welcome />
+      </div>
     </div>
   );
 }
