@@ -1,13 +1,13 @@
-
-
-
+import Welcome from './Welcome';
 
 const Main = () => {
   return (
-    <h1>Main</h1>
+    <div className="main">
+      <Welcome />
+    </div>
   );
 }
 
 
 
-export default Main 
+export default Main;

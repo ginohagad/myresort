@@ -1,10 +1,9 @@
 
-
-
-
 const Footer = () => {
   return (
-    <h1>Footer</h1>
+    <section className="footer">
+      <p>Copyright &copy; MyResort 2021.</p>
+    </section>
   );
 }
 

@@ -4,3 +4,17 @@
   box-sizing: border-box;
 }
 
+.navbar {
+  background-color: yellow; /* temporary background */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  list-style-type: none;
+}
