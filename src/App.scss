@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+/* Variables */
+$coral: #FF7F50;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.main {
+  background-image: url('assets/resort01.jpg');
+  height: 100vh;
+}
+
+.tint {
+  background-color: rgba(0,0,0,0.1);
+  height: 100vh;
+}
+
+.navbar {
+  padding: 15px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1.5px solid #fff;
+
+  #logo {
+    color: coral;
+  }
+
+  ul {
+    display: grid;
+    margin-left: auto; /* align ul to right */
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+    grid-gap: 6em;
+
+    li {
+      list-style-type: none;
+      
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+}
+
+
+.nav-items {
+  display: flex;
+}
+
+.welcome {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  #resort-name {
+    font-size: 5em;
+  }
+
+  #resort-loc {
+    font-size: 2em;
+  }
+
+  .welcome-texts {
+    color: coral;
+    text-shadow: 1px 1px 2px #000; 
+  }
+}
+
+.bookmenu {
+  margin-top: 6em;
+  padding: 10px;
+  background-color: yellow; /* Temporary bg color */
+  color: #000; 
+
+  h3 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .book-items {
+    display: flex;
+    gap: 9em;
+  }
+
+  .bm-dates {
+    li {
+      display: inline-block;
+    }
+  }
+
+  .search {
+    padding: 0 30px;
+  }
+
+}
+
