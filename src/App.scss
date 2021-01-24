@@ -98,14 +98,14 @@ body {
     gap: 9em;
   }
 
-  .bm-dates {
+  .bm-dates, .bm-guests {
     li {
       display: inline-block;
     }
   }
 
   .search {
-    padding: 0 30px;
+    padding: 5px;
   }
 
 }

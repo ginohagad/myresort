@@ -27,12 +27,52 @@ const BookMenu = () => {
         <div className="bm-guests">
           <h2>Guests</h2>
           <ul>
-            <li>No. of adults (8)</li>
-            <li>No. of children (8)</li>
+            <li>
+              <label for="list-adult">No. of adults:</label>
+              <select name="adults" id="list-adult">
+                  <option value="">--Please choose an option--</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+              </select>
+            </li>
+            <li>
+              <label for="list-children">No. of children:</label>
+              <select name="children" id="list-children">
+                  <option value="">--Please choose an option--</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+              </select>
+            </li>
           </ul>
         </div>
         <div className="bm-rooms">
-          <h2>Rooms (10)</h2>
+          <h2>Rooms</h2>
+          <label for="list-rooms">No. of Rooms:</label>
+          <select name="rooms" id="list-rooms">
+              <option value="">--Please choose an option--</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+          </select>
         </div>
         <button className="search">Search</button>
       </div>
