@@ -74,7 +74,9 @@ const BookMenu = () => {
               <option value="10">10</option>
           </select>
         </div>
-        <button className="search">Search</button>
+        <div className="bm-search">
+          <button className="search">Search</button>
+        </div>
       </div>
     </div>
   )

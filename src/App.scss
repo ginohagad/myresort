@@ -98,15 +98,18 @@ body {
     gap: 9em;
   }
 
-  .bm-dates, .bm-guests {
+  .bm-dates, .bm-guests, .bm-search {
     li {
       display: inline-block;
     }
   }
 
-  .search {
-    padding: 5px;
-  }
+  .bm-search {
+    margin: auto;
 
+    .search {
+      padding: 5px;
+    }
+  }
 }
 
